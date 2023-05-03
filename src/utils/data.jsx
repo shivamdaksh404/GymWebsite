@@ -8,7 +8,7 @@
  },
  {
     linkName : "About Us",
-    path:'/aboutUs'
+    path:"/aboutUs"
 
  },
  {
