@@ -5,10 +5,12 @@ import Pricing from "./pages/Pricing/Pricing";
 import Program from "./pages/Program/Program";
 import Login from "./pages/Authentication/Login/Login";
 import Registration from "./pages/Authentication/Registration/Registration";
+import NavigationBar from './components/navbar/NavigationBar'
+import Footer from "./components/footer/Footer";
 
 function App() {
   return <div>
-
+<NavigationBar />
 <Routes>
 <Route path="/" element={<Home/>}  />
 <Route path="/aboutUs" element={<AboutUs/>}  />
@@ -19,7 +21,7 @@ function App() {
 <Route path="/*" element={<h1>404 Page is Not Found</h1>}  />
 
 </Routes>
-
+<Footer/>
   </div>;
 }
 

@@ -1,11 +1,7 @@
  // navigation bar data 
 
 
- export const linkData = [{
-    linkName : "Home",
-    path:'/'
-
- },
+ export const linkData = [
  {
     linkName : "About Us",
     path:"/aboutUs"
