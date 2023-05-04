@@ -1,0 +1,29 @@
+.inputWrapper {
+  margin: 0.313rem;
+  font-family: inconsolata;
+  font-weight: bold;
+  font-size: large;
+  /* border-radius: 0.625rem; */
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.submitBtn {
+  /* border-radius: 3.125rem; */
+  width: 35%;
+  height: 2rem;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+input {
+  /* border-radius: 0.625rem; */
+  height: 1.6rem;
+
+  font-family: inconsolata;
+  width: 69%;
+  position: relative;
+  font-size: larger;
+}
