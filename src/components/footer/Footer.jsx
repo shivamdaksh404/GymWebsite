@@ -6,7 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 export default function Footer() {
-  const styles = { height: "2rem", width: "2rem", color: "black" };
+  const styles = { height: "2rem", width: "2rem", color: "blue" };
 
   return (
     <div className={style.mainContainer}>

@@ -8,13 +8,19 @@ export default function AboutUs() {
   };
 
   return (
-    <div>
+    <div className={style.mainContainer}>
+      <section  className={style.aboutUsSection}>
+
+      <div  className={style.videoDiv}>
+
       <iframe   src="https://www.youtube.com/embed/Rd3XHPk5me4"
           title="YouTube video player"
-          frameBorder="0"
+         
+          frameBorder="100"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen={true}></iframe>
-      <section  className={style.aboutUsDiv}>
+      </div>
+      <div className={style.aboutContentDiv}>
         <h1>About Us</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aspernatur
@@ -22,12 +28,15 @@ export default function AboutUs() {
           ad assumenda, laudantium repellendus recusandae consequuntur libero.
           Nemo repudiandae consequatur hic.
         </p>
-        <Button onClick={showAlert}>Learn More</Button>
+        <Button onClick={showAlert} variant="contained">Learn More</Button>
+      </div>
       </section>
-      <section className={style.whyChooseUsDiv} >
+      <section className={style.whyChooseUsSection} >
+      <div className={style.WhyChooseContentDiv}>
+
         <h1>Why Choose Us</h1>
         <ul>
-          <li>
+          <li className={style.listdiv}>
             <h3>Consultations With Expert</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
@@ -37,7 +46,7 @@ export default function AboutUs() {
               mollitia dolores nobis nesciunt quae libero?
             </p>
           </li>
-          <li>
+          <li className={style.listdiv}>
             <h3>Best Workout Facilities</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
@@ -48,11 +57,14 @@ export default function AboutUs() {
             </p>
           </li>
         </ul>
+      </div>
+      <div className={style.videoDiv}> 
         <iframe   src="https://www.youtube.com/embed/Rd3XHPk5me4"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen={true}></iframe>
+      </div>
       </section>
     </div>
   );

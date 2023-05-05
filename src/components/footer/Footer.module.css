@@ -1,7 +1,7 @@
 .mainContainer {
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
+  
+    /* position: -webkit-sticky;
+    bottom: 0; */
     background-color: rgb(0, 0, 0);
     color: white;
 
@@ -11,7 +11,9 @@
 
 }
 
-.allDivWrapper {}
+.allDivWrapper >p{ 
+    color: blue;
+}
 
 .wrapperDiv {
     display: flex;
@@ -64,6 +66,9 @@
 ul>li {
     list-style: none;
 }
+ul>h4{
+    color: blue;
+}
 
 @media screen and (max-width:600px) {
     .mainContainer {
@@ -111,6 +116,7 @@ ul>li {
     .iconDiv {
         display: flex;
         flex-direction: row;
+        color: blue;
         width: 30%;
         justify-content: space-between;
         padding: 10px 10px 10px 0px;

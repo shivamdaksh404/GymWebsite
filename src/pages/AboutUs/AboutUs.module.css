@@ -1,0 +1,154 @@
+.mainContainer{
+    /* border: 1px solid blue; */
+    height: 100%; 
+    width: 98.5vw;
+    display:flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+gap: 1rem;
+    flex-direction: column;
+}
+
+.aboutUsSection{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 60vh;
+    justify-content: center;
+    /* position: relative; */
+    /* top: 100%; */
+    /* border: 1px solid red; */
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.videoDiv{
+   /* display: flex; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* border: 1px solid black; */
+   height: 80%;
+   width: 50%;
+
+}
+
+.aboutContentDiv{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    justify-content: center;
+    width: 70%;
+    font-size: larger;
+    gap: 1rem;
+
+
+}
+.aboutContentDiv>h1{
+    /* color: blue; */
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.whyChooseUsSection{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: center;
+    /* margin: 10px; */
+    /* position: relative; */
+    /* top: 100%; */
+    /* border: 1px solid red; */
+    gap: 2rem;
+    align-items: center;
+    
+
+
+}
+
+.WhyChooseContentDiv{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+    justify-content: center;
+    width: 70%;
+    font-size: larger;
+    gap: 1rem;
+
+
+}
+.WhyChooseContentDiv>h1{
+    /* color: blue; */
+    font-weight: bolder;
+    font-size:2.5rem;
+}
+iframe{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+@media screen and (max-width:600px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+    .aboutContentDiv{
+        display: unset;
+        height: 100%;
+        /* border: 1px solid  rebeccapurple; */
+        width: 100%;
+    }
+    .WhyChooseContentDiv{
+        display: unset;
+        
+        height:100%;
+        /* border: 1px solid  rebeccapurple; */
+        width: 100%;
+        
+    }
+    li {color: black;}
+    
+    .aboutUsSection{
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 0;
+    }
+    .whyChooseUsSection{
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: flex-end;
+        gap: 0;
+      
+    
+    }
+    .listdiv {
+        color: black;
+        gap: 1rem;
+    }
+    iframe{
+        height: 14em;
+
+        width: 24em;
+    }
+    .videoDiv{
+       height: unset;
+       width: unset;
+    }
+}
